@@ -50,5 +50,5 @@ jobs:
             - name: 'Install Deps'
               run: npm ci
             - name: 'Deploy'
-              run: npm build
+              run: npm run build
               
